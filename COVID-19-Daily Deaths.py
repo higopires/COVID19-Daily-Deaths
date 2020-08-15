@@ -80,6 +80,7 @@ vanilla_lstm_my_callbacks = [
                                        save_weights_only=False)
     ]
 
+#as we are working with a time series, where the data is dependent on an order, we will not scramble the data (shuffle=False)
 vanilla_lstm_history = vanilla_lstm.fit(
     X_train, y_train, 
     epochs=100, 
@@ -243,7 +244,6 @@ bidirect_lstm_my_callbacks = [
                                        save_weights_only=False)
     ]
 
-#treinamento: por ser uma série temporal, os dados não devem ser embaralhados
 bidirect_lstm_history = bidirect_lstm.fit(
     X_train, y_train, 
     epochs=100, 
