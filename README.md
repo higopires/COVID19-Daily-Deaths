@@ -1,2 +1,2 @@
-# Prediction of COVID-19 Daily Fatalities in Maranhao State, Brazil: A Comparative Study Using Google Trends and Deep Learning Models
+# Deep Learning-Driven Prediction of COVID-19 Fatalities in Maranhão State, Brazil: A Study Using Google Trends
 Higo Felipe Pires, and V. Leonardo Paucar, *Senior Member, IEEE*
